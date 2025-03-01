@@ -91,6 +91,38 @@ This project supports two fine-tuning approaches:
    - Helps model learn to provide more detailed and helpful responses
    - Can be used after SFT for further optimization
 
+## Testing the Model
+
+After fine-tuning is complete, you can test the model using the provided test script:
+
+```bash
+python test_model.py
+```
+
+Example test cases and their responses:
+
+1. Email Scam Detection:
+```
+Q: 最近收到一封email說我中獎了，要我提供銀行帳號領獎金，這是真的嗎？
+A: 這很可能是詐騙郵件，請勿提供個人資料或銀行帳號。建議您立即刪除該郵件，並可以向相關單位舉報。
+   記得不要隨意相信來歷不明的郵件或訊息，以免上當受騙。
+```
+
+2. Impersonation Scam Detection:
+```
+Q: 有人說他是我遠房親戚，急需借錢，要我轉帳給他，我該怎麼辦？
+A: 這是一種常見的詐騙手法，詐騙者冒充親戚或朋友向您求助，建議您不要隨意轉帳給對方。
+   請盡量與親戚核對對方身份以確認真假，並可以聯繫當地警方或詐騙防護專線進行舉報。
+   記得不要隨意透露個人資料或進行轉帳操作。
+```
+
+3. Police Impersonation Scam:
+```
+Q: 接到自稱是警察的電話，說我涉及洗錢案件，要我配合調查，這是詐騙嗎？
+A: 這是詐騙。警察不會通過電話要求市民轉錢或提供個人資料。請立即掛電話，不要提供個人資料或轉帳。
+   詐騙分子可能冒充警察或其他官方機構，試圖騙取個人和金融信息。若有疑慮，應立即與當地警方聯繫。
+```
+
 ## Note
 
 This project includes both data collection and model fine-tuning components. The training data and fine-tuned models are not included in this repository for privacy and security reasons.
