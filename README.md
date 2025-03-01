@@ -1,4 +1,7 @@
 # AntiFraud Agent
+目前已經用streamlit包裝成一個聊天app, 經過強化學習，學習的165防詐騙上面的專案案例。
+以下是網站的screen shot範例：
+![image](https://github.com/user-attachments/assets/355db819-1cd3-4c36-ac0d-9e794642841b)
 
 This project implements an AI-powered fraud detection system that learns from real-world fraud cases to help prevent future scams. It includes both data collection and model fine-tuning components.
 
