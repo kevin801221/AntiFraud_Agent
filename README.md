@@ -94,3 +94,9 @@ This project supports two fine-tuning approaches:
 ## Note
 
 This project includes both data collection and model fine-tuning components. The training data and fine-tuned models are not included in this repository for privacy and security reasons.
+開始監控fine-tuning job: 
+
+Job Status: succeeded
+Fine-tuned model ID: ft:gpt-3.5-turbo-0125:personal::
+
+訓練完成！你可以使用這個模型ID來進行推理了。
