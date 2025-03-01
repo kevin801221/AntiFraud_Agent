@@ -9,3 +9,5 @@ datasets
 peft
 torch>=2.0.0
 mtkresearch
+streamlit>=1.42.0
+jsonlines>=4.0.0
