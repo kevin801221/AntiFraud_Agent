@@ -1,0 +1,11 @@
+aiohttp==3.9.1
+beautifulsoup4==4.12.2
+python-dotenv==1.0.0
+anthropic==0.8.1
+openai==1.12.0
+pandas==2.2.1
+transformers==4.47.0
+datasets
+peft
+torch>=2.0.0
+mtkresearch
