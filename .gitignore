@@ -1,5 +1,15 @@
-# Environment variables
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*credential*
+config.ini
+secrets.yaml
+.api_key
+.openai_key
 
 # Python
 __pycache__/
@@ -43,6 +53,24 @@ fraud_data/
 lora_finetune.py
 generate_fraud_dataset.py
 3_integration_all_process.py
+
+# Training data and model outputs
+**/training_data/
+**/model_outputs/
+**/checkpoints/
+*.model
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.jsonl
+
+# Sensitive data directories
+output/
+data/private/
+**/private*/
+**/sensitive*/
 
 # Testing and cache
 .coverage
